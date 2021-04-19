@@ -1,0 +1,143 @@
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+	h4 {
+		font-size: 26px;
+	}
+	.navbar.navbar-expand-md.navbar-light.fixed-top {
+		background-color: #fff;
+		box-shadow: 0 0 7px rgba(4,5,60,0.1);
+	}
+	.certificate-block li img {
+		width: 100%;
+		padding: 0 15px;
+	}
+	.brand-slider li img {
+		width: 100%;
+		padding: 0 15px;
+	}
+	.brand-slider li {
+		width: 50%;
+	}
+	.offshore-box {
+		margin-bottom: 30px;
+	}
+	.portfoliotext {
+		margin-top: 227px;
+	}
+	.appimg {
+		width: 100% !important;
+		bottom: 0 !important;
+	}
+	.round {
+		display: none !important;
+	}
+	.woul {
+		display: none !important;
+	}
+	.deleiveryboy {
+		display: none !important;
+	}
+	.portfoliotext ul {
+		display: block;
+	}
+	.portfoliotext li {
+		list-style: none;
+		float: none;
+		width: 100%;
+		border-left: 0;
+		padding-left: 0;
+		height: 70px;
+	}
+	.portfoliotext li:first-child {
+		list-style: none;
+		float: none;
+		width: 100%;
+		border-left: 0;
+		padding-left: 0;
+		height: 70px;
+	}
+	.portfolioimg {
+		top: 35px;
+	}
+	.news .container-fluid {
+		padding-right: var(--bs-gutter-x,1rem);
+		padding-left: var(--bs-gutter-x,1rem);
+	}
+	.newsbox {
+		margin-bottom: 30px;
+	}
+	.buttonmask {
+		text-align: center;
+	}
+	.processline1 {
+		display: none;
+	}
+	.processline2 {
+		display: none;
+	}
+	.processline3 {
+		display: none;
+	}
+	.processline4 {
+		display: none;
+	}
+	.processline5 {
+		display: none;
+	}
+	.pt-7 {
+		padding-top: 2em;
+	}
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) {
+	.navbar-brand img {
+		width: 120px;
+	}
+	.navbar-nav .nav-link {
+		font-size: 14px;
+	}
+	.nav-item .button-bg {
+		font-size: 12px !important;
+		padding: 11px 8px;
+	}
+	.offshore-box {
+		margin-bottom: 30px;
+	}
+	.woul {
+		bottom: -90px;
+		left: 65%;
+	}
+	.deleiveryboy {
+		width: 80px !important;
+	}
+	.processline1 {
+		display: none;
+	}
+	.processline2 {
+		display: none;
+	}
+	.processline3 {
+		display: none;
+	}
+	.processline4 {
+		display: none;
+	}
+	.processline5 {
+		display: none;
+	}
+	.button-bg {
+		font-size: 14px;
+		padding: 11px 15px;
+	}
+	.footerform {
+		padding-top: 50px;
+	}
+	.topfooterpadd {
+		margin-bottom: 750px;
+	}
+	.newsbox {
+		margin-top: 30px;
+	}
+	.pt-7 {
+		padding-top: 0;
+	}
+}

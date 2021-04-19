@@ -62,6 +62,36 @@ $(document).ready(function() {
 
 /*footer-slider*/
 
+/*footer-slider*/
+$(document).ready(function() {
+  $('.portfolio .owl-carousel').owlCarousel({
+    loop: true,
+    margin: 0,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+        nav: true
+      },
+      600: {
+        items: 1,
+        nav: false
+      },
+      1000: {
+        items: 1,
+        nav: true,
+        loop: true,
+        margin: 0
+      }
+    }
+  })
+});
+
+/*footer-slider*/
+
 /*navbar scroll color change*/
 
 $(function () {
@@ -72,4 +102,11 @@ $(function () {
 });
 
 /*navbar scroll color change*/
+
+
+/*mobile menu js start */
+
+
+
+/*mobile menu js start */
 

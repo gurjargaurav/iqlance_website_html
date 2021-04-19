@@ -4,12 +4,14 @@ h1 {font-size: 56px;color: #04053c;font-weight: bold;line-height: 62px;}
 h2 {font-size: 36px;color: #04053c;font-weight: bold;line-height: 42px;}
 h3 {font-size: 48px;color: #04053c;font-weight: 700;}
 h4 {font-size: 28px;color: #04053c;font-weight: 500;margin:0;}
-h5 {font-size: 20px;color: #04053c;font-weight: 500;margin:0;}
+h5 {font-size: 22px;color: #04053c;font-weight: 600;margin:0;}
 
 p {font-size: 16px;color: #65667f; line-height: 28px; margin: 0;}
 
 li {font-size: 16px;color: #65667f; line-height: 28px;}
-
+.pt-7 {
+	padding-top: 7em;
+}
 .posrel {
 	position: relative;
 	z-index: 999
@@ -248,7 +250,14 @@ li {font-size: 16px;color: #65667f; line-height: 28px;}
 
 
 /*offshore-vct section start*/
-
+.image-main {
+	-webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInLeft;
+  animation-delay: 0.3s;
+}
 .offshore-box {
 	background-color: #fff;
 	padding: 30px;
@@ -284,6 +293,38 @@ li {font-size: 16px;color: #65667f; line-height: 28px;}
 }
 .offshore-box h3 {
 	padding-top: 65px;
+}
+
+.offering-slider .owl-theme .owl-nav [class*="owl-"]:hover {
+	background: transparent;
+}
+.offering-slider .owl-nav .owl-next span {
+	background: #fff7f7;
+	color: #04053C;
+	text-decoration: none;
+	font-size: 28px;
+	width: 43px;
+	border-radius: 7px 28px 7px 7px;
+	display: inline-block;
+}
+.offering-slider .owl-nav .owl-next span:hover {
+	background: #ff5e5e;
+	border-radius: 7px 28px 7px 7px;
+	color: #04053C;
+}
+.offering-slider .owl-nav .owl-prev span:hover {
+	background: #ff5e5e;
+	border-radius: 28px 7px 7px 7px;
+	color: #04053C;
+}
+.offering-slider .owl-nav .owl-prev span {
+	background: #fff7f7;
+	color: #04053C;
+	text-decoration: none;
+	font-size: 28px;
+	width: 43px;
+	border-radius: 28px 7px 7px 7px;
+	display: inline-block;
 }
 
 /*offshore-vct section end*/
@@ -326,6 +367,244 @@ li {font-size: 16px;color: #65667f; line-height: 28px;}
 }
 /*Technologies section css end*/
 
+/*process section css start*/
+
+.processbox {
+	background-color: #fff;
+	border: 1px solid #ffdfdf;
+	border-radius: 10px 10px 10px 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.processheading {
+	padding-bottom: 15px;
+}
+.processheading span {
+	float: left;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	background-color: #eff0f5;
+	line-height: 52px;
+	font-size: 28px;
+	margin-right: 15px;
+	font-weight: 600;
+	color: #04053c;
+	margin-top: 0;
+	border-radius: 0 12px 12px 0;
+}
+.processbox p {
+	padding: 15px 30px;
+	font-size: 14px;
+}
+.process-icon img {
+	padding: 15px;
+	background-color: #fff;
+	width: 90px;
+	border: 1px solid #ff5e5e;
+	height: 90px;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	border-radius: 10px 30px 10px 10px;
+}
+.processbox:hover {
+	box-shadow: 0 0 10px 0px #ff5e5e5e;
+	border: 1px solid #ff5e5e;
+}
+.processbox:hover .processheading span {
+	background-color: #ff5e5e;
+	color: #fff;
+}
+.processbox:hover img {
+	background-color: #ff5e5e;
+}
+.processbox:hover .processline1 img  {
+	background-color: transparent;
+}
+.processbox:hover .processline1 .line-pink  {
+	display: block;
+}
+.processbox:hover .processline1 .line-grey  {
+	display: none;
+}
+.processline1 img {
+	position: absolute;
+	top: -60px;
+	right: -80px;
+}
+.processbox:hover .processline2 img  {
+	background-color: transparent;
+}
+.processbox:hover .processline2 .line-pink  {
+	display: block;
+}
+.processbox:hover .processline2 .line-grey  {
+	display: none;
+}
+.processline2 img {
+	position: absolute;
+	bottom: -60px;
+	right: -80px;
+}
+.processbox:hover .processline3 img  {
+	background-color: transparent;
+}
+.processbox:hover .processline3 .line-pink  {
+	display: block;
+}
+.processbox:hover .processline3 .line-grey  {
+	display: none;
+}
+.processline3 img {
+	position: absolute;
+	bottom: -180px;
+	right: -67px;
+}
+.processbox:hover .processline4 img  {
+	background-color: transparent;
+}
+.processbox:hover .processline4 .line-pink  {
+	display: block;
+}
+.processbox:hover .processline4 .line-grey  {
+	display: none;
+}
+.processline4 img {
+	position: absolute;
+	bottom: -60px;
+	left: -180px;
+}
+.processbox:hover .processline5 img  {
+	background-color: transparent;
+}
+.processbox:hover .processline5 .line-pink  {
+	display: block;
+}
+.processbox:hover .processline5 .line-grey  {
+	display: none;
+}
+.processline5 img {
+	position: absolute;
+	top: -60px;
+	left: -200px;
+}
+.line-pink {
+	display: none;
+}
+
+/*process section css start*/
+
+/*portfolio css start*/
+.portfolio-heading {
+	position: absolute;
+	top: 4rem;
+}
+.portfolio .item {
+	padding-top: 115px;
+}
+.appimg {
+	position: relative;
+	z-index: 999;
+	bottom: -54px;
+}
+.round {
+	position: absolute;
+	bottom: -290px;
+	right: -14%;
+}
+.portfolio .owl-carousel .owl-nav.disabled {
+	display: none;
+}
+.portfolio .owl-dots {
+	position: absolute;
+	bottom: 40px;
+	left: 16%;
+}
+.portfolio-heading p {
+	color: #04053c;
+}
+
+.portfolio .owl-theme .owl-dots .owl-dot span {
+	background: #c3bebe;
+}
+.portfolio .owl-theme .owl-dots .owl-dot.active span, .portfolio .owl-theme .owl-dots .owl-dot:hover span {
+	background: #ff5e5e;
+}
+.portfolio .owl-nav {
+	display: none;
+}
+.woul {
+	position: absolute;
+	bottom: -110px;
+	left: -130px;
+}
+.deleiveryboy {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 240px !important;
+	-webkit-animation-duration: 1s;
+	  animation-duration: 1s;
+	  -webkit-animation-fill-mode: both;
+	  animation-fill-mode: both;
+	  animation-name: fadeInLeft;
+	  animation-delay: 0.3s;
+}
+.portfoliotext h5 {
+	color: #ff5e5e;
+	padding-bottom: 20px;
+	font-size: 24px;
+}
+.portfoliotext {
+	position: relative;
+	margin-top: 127px;
+}
+.portfoliotext p {
+	color: #04053c;
+}
+.portfolio .owl-carousel .owl-item img {
+	 width: auto; 
+}
+.portfoliotext ul {
+	display: flex;
+	background-color: #ffffff59;
+	padding: 12px 15px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.portfoliotext li {
+	list-style: none;
+	float: left;
+	width: 33.33%;
+	border-left: 2px solid #d0d2ca;
+	padding-left: 28px;
+}
+.portfoliotext li:first-child {
+	list-style: none;
+	float: left;
+	width: 33.33%;
+	border-left: 0px solid #d0d2ca;
+	padding-left: 12px;
+}
+.portfolio-bg-1 {
+	background-color: #dfe1cd;
+}
+.portfolio-bg-2 {
+	background-color: #ecedfb;
+}
+.portfoliotext li p span {
+	color: #ff5e5e;
+}
+.portfoliotext li p {
+	color: #262852;
+	font-weight: 500;
+}
+.portfolioimg {
+	position: relative;
+}
+/*portfolio css end*/
 
 /*Accordion section css Start*/
 
@@ -415,7 +694,7 @@ li {font-size: 16px;color: #65667f; line-height: 28px;}
 /*Blog Section Css Start*/
 
 
-/**/
+/*Top footer css start*/
 
 .perpal-bg {
 	background-color: #140929;
@@ -494,7 +773,7 @@ li {font-size: 16px;color: #65667f; line-height: 28px;}
 .footer-pdf img {
 	margin-right: 15px;
 }
-/**/
+/*Top footer css end*/
 
 
 /*footer css start*/
@@ -558,3 +837,5 @@ footer {
 	z-index: 0;
 }
 /*footer css end*/
+
+
